@@ -104,9 +104,6 @@ div.container2{
 .button{
     justify-self: stretch;
 }
-.body{
-    padding-bottom: 143.06px;
-}
 /*--------------------------------------------- FOOTER  --------------------------------------*/
 .navFooter{
     display: flex;
