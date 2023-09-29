@@ -24,6 +24,10 @@
 padding: 0;
 box-sizing: border-box;
 font-family: 'neue';}
+
+body{
+    background-color: #EBE8E3;
+}
 .main{
     display:grid;
     align-content: space-between;
@@ -34,8 +38,10 @@ div.container1{
     padding: 20.43px 40.86px 0px;
 }
 div.container2{
-    padding: 39.84px 40.86px 23.82px;
     background-color: #161010;
+    padding-left: 40.86px;
+    padding-right: 40.86px;
+    padding-bottom: 23.82px;
 }
 .nav,.body{
     display: flex;
@@ -104,6 +110,9 @@ div.container2{
 .button{
     justify-self: stretch;
 }
+.body{
+    padding-bottom: 143.04px;
+}
 /*--------------------------------------------- FOOTER  --------------------------------------*/
 .navFooter{
     display: flex;
@@ -111,6 +120,7 @@ div.container2{
     color: #EBE8E3;
     padding-bottom: 37.16px;
     border-bottom: 1px solid #8A8787;
+    padding-top: 50.06px;
 }
 .footerListA{
     display: flex;
@@ -149,7 +159,4 @@ div.container2{
     justify-content: space-between;
     list-style: none;
     column-gap: 36.78px;
-}
-@media (max-width:375px){
-    
 }
