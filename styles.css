@@ -167,11 +167,11 @@ div.container2{
         display: none;
     }
     .container2{
-        width: 768px;
+        width: 100%;
     }
     .centerFooter{
         width: 768px;
-       padding-right: 81.72px;
+       
     }
     img.qoute-img{
         width: 100%;
@@ -182,17 +182,17 @@ div.container2{
 }
 
 
-@media (max-width:375x){
+@media (max-width:768px){
     div.bodyRight{
         background-color: red;
         display: none;
     }
     .container2{
-        width: 768px;
+        width: 100%;
     }
     .centerFooter{
         width: 768px;
-       padding-right: 81.72px;
+       
     }
     img.qoute-img{
         width: 100%;
