@@ -160,3 +160,44 @@ div.container2{
     list-style: none;
     column-gap: 36.78px;
 }
+
+@media (max-width:768px){
+    div.bodyRight{
+        background-color: red;
+        display: none;
+    }
+    .container2{
+        width: 768px;
+    }
+    .centerFooter{
+        width: 768px;
+       padding-right: 81.72px;
+    }
+    img.qoute-img{
+        width: 100%;
+    }
+    .body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media (max-width:375x){
+    div.bodyRight{
+        background-color: red;
+        display: none;
+    }
+    .container2{
+        width: 768px;
+    }
+    .centerFooter{
+        width: 768px;
+       padding-right: 81.72px;
+    }
+    img.qoute-img{
+        width: 100%;
+    }
+    .body{
+        overflow-x: hidden;
+    }
+}
