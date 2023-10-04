@@ -162,42 +162,85 @@ div.container2{
 }
 
 @media (max-width:768px){
+    .container1{
+        width: 768px;
+    }
+    .qoute,.form,.centerFooter{
+        width: 727.14px;
+        padding-right: 40.86px;
+    }
+    .form{
+        padding-top: 49.34px;
+    }
+    .text{
+        width: 100%;
+        font-size: 60px;
+        padding-top: 70px;
+    }
     div.bodyRight{
-        background-color: red;
         display: none;
     }
     .container2{
-        width: 100%;
-    }
-    .centerFooter{
         width: 768px;
-       
     }
-    img.qoute-img{
+    .qoute-img{
         width: 100%;
-    }
-    .body{
-        overflow-x: hidden;
     }
 }
 
 
-@media (max-width:768px){
-    div.bodyRight{
-        background-color: red;
-        display: none;
+@media (max-width:376px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navListA,.navListB{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        column-gap: 12px;
+        font-size: 10px;
+    }
+    .nav{
+        width: 365px;
+    }
+    .makabi{
+        width: 130px;
+    }
+    .makabi1{
+        width: 100%;
+    }
+    .text{
+        width: 375px;
+        font-size: 32px;
+    }
+    .form{
+        width: 360px;
+    }
+    .container1{
+        width: 375px;
+    }
+    .centerFooter{
+        width: 375px;
+    }
+    .qoute{
+        width: 375px;
+    }
+    div.container1,div.container2{
+        padding: 10px 20px 0px;
+    }
+    div.navFooter{
+        align-items: center;
+    }
+    div.form{
+        padding: 49.34px 0px 0px 0px;
+    }
+    .botLists,.footerListA{
+        font-size: 10px;
+        column-gap: 10px;
     }
     .container2{
         width: 100%;
-    }
-    .centerFooter{
-        width: 768px;
-       
-    }
-    img.qoute-img{
-        width: 100%;
-    }
-    .body{
-        overflow-x: hidden;
     }
 }
