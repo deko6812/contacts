@@ -186,6 +186,10 @@ div.container2{
     .qoute-img{
         width: 100%;
     }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
